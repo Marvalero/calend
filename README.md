@@ -1,24 +1,15 @@
 # README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+# Execute postgres
 
-Things you may want to cover:
+Create container:
+```
+sudo docker run --name some-postgres -p 5432:5432 -e POSTGRES_PASSWORD=user -e POSTGRES_USER=user -e POSTGRES_DB=rails_dev -d postgres
+```
 
-* Ruby version
-
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+You can jump to it:
+```
+psql -U user -d rails_dev -h 127.0.0.1
+\c calend
+SELECT * FROM appointments;
+```

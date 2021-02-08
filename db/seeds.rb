@@ -3,5 +3,4 @@
 #
 # Examples:
 #
-#   movies = Movie.create([{ name: 'Star Wars' }, { name: 'Lord of the Rings' }])
-#   Character.create(name: 'Luke', movie: movies.first)
+# Appointment.create([{ type: 'Great White', comment: 'Scary' }, { type: 'Megalodon', comment: 'Ancient' }, { type: 'Hammerhead', comment: 'Hammer-like' }, { type: 'Speartooth', comment: 'Endangered' }])

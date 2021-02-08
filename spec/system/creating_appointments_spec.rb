@@ -6,7 +6,7 @@ RSpec.describe "CreatingAppointments", type: :system do
   end
 
   it 'saves and displays the appointment' do
-    visit '/appointment/new'
+    visit '/appointments/new'
     type = 'Cera de cejas'
     comment = 'I like this'
 
